@@ -32,5 +32,5 @@ N/A
 
 ## Link To Final Product
 
-https://kipschetnan.github.io/Week-1-Challenge/
+https://kipschetnan.github.io/Week-1-Challenge/02-Challenge/Develop/
 
