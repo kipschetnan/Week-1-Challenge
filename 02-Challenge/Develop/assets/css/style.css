@@ -1,200 +1,330 @@
+/*Below are syle rules for the whole document*/
 * {
+    /*Allows us to include the padding and border in the width and height*/
     box-sizing: border-box;
+    /*Sets the padding to a value of 0*/
     padding: 0;
+    /*Sets the margin to a value of 0*/
     margin: 0;
 }
 
+/*Below are style rules for the body of the document*/
 body {
+    /*Sets the background color to the hexadecimal color of #d9dcd6*/
     background-color: #d9dcd6;
 }
 
+/*Below are style rules for the main header of the document*/
 .header {
+    /*Sets the padding to 20 pixels*/
     padding: 20px;
+    /*Sets the font family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Sets the background color to the hexadecimal color of #2a607c*/
     background-color: #2a607c;
+    /*Sets the text color to white*/
     color: #ffffff;
 }
 
+/*Below are style rules for the second header of the document*/
 .header h1 {
+    /*Sets the display to inline-block*/
     display: inline-block;
+    /*Sets the font-size to 48 pixels*/
     font-size: 48px;
 }
 
+/*Below are the style rules for header h1 and seo*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/*Below are the styles for the header section*/
+.header section {
+    /*sets the padding-top to 15 pixels*/
     padding-top: 15px;
+    /*sets the margin-right to 20 pixels*/
     margin-right: 20px;
+    /*sets the float to right*/
     float: right;
+    /**sets the font-fmaily to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets the font-size to 20 pixels*/
     font-size: 20px;
 }
 
-.header div ul {
+/*Below are the style rules for the header section ul*/
+.header section ul {
+    /*sets list-style-type to none*/
     list-style-type: none;
 }
 
-.header div ul li {
+/*below are the rules for the header section ul li*/
+.header section ul li {
+    /*sets display to inline-block*/
     display: inline-block;
+    /*sets margin-left to 25 pixels*/
     margin-left: 25px;
 }
 
+/*Below are the rules for the 'a' tags*/
 a {
+    /*Sets the color to white*/
     color: #ffffff;
+    /*Sets the text-decoration to none*/
     text-decoration: none;
 }
 
+/*Below are the rules for the 'p' tags*/
 p {
+    /*Sets the font size to 16 pixels*/
     font-size: 16px;
 }
 
+/*Below are the rules for the class 'hero'*/
 .hero {
+    /*sets the height to 800 pixels*/
     height: 800px;
+    /*sets the width to 100%*/
     width: 100%;
+    /*sets margin-bottom to 25 pixels*/
     margin-bottom: 25px;
+    /*sets background-image to the url below*/
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /*sets the background-size to cover*/
     background-size: cover;
+    /*sets the background-position to center*/
     background-position: center;
 }
 
+/*Below are the rules for the class 'float-left'*/
 .float-left {
+    /*sets float to left*/
     float: left;
+    /*sets margin-right to 25 pixels*/
     margin-right: 25px;
 }
 
+/*Below are the rules for the class 'float-right'*/
 .float-right {
+    /*sets float to right*/
     float: right;
+    /*sets margin-left to 25 pixels*/
     margin-left: 25px;
 }
 
+/*below are the rules for the class 'content'*/
 .content {
+    /*sets width to 75%*/
     width: 75%;
+    /*sets display to inline-block*/
     display: inline-block;
+    /*sets margin-left to 20 pixels*/
     margin-left: 20px;
 }
 
+/*below are the rules for the class 'benefits'*/
 .benefits {
+    /*sets margin-right to 20 pixels*/
     margin-right: 20px;
+    /*sets padding to 20 pixels*/
     padding: 20px;
+    /*sets clear to both*/
     clear: both;
+    /*sets float to right*/
     float: right;
+    /*sets width to 20%*/
     width: 20%;
+    /*sets height to 100%*/
     height: 100%;
+    /*sets font-family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets background-color to #2589bd*/
     background-color: #2589bd;
 }
 
+/*below are the rules for the class 'benefit-lead'*/
 .benefit-lead {
+    /*sets margin-bottom to 32 pixels*/
     margin-bottom: 32px;
+    /*sets text color to white*/
     color: #ffffff;
 }
 
+/*below are the rules for the class 'benefit-brand'*/
 .benefit-brand {
+    /*sets margin-bottom to 32 pixels*/
     margin-bottom: 32px;
+    /*sets text color to white*/
     color: #ffffff;
 }
 
+/*below are the rules for the class ''benefit-cost'*/
 .benefit-cost {
+    /*sets margin-bottom to 32 pixels*/
     margin-bottom: 32px;
+    /*sets text color tow white*/
     color: #ffffff;
 }
 
+/*Below are the rules for the class 'benefit-lead' and for the h3 tag*/
 .benefit-lead h3 {
+    /*sets margin-bottom to 10 pixels*/
     margin-bottom: 10px;
+    /*sets text text-align to center*/
     text-align: center;
 }
 
+/*below are the rules for the class 'benefit-brand' and the tag h3*/
 .benefit-brand h3 {
+    /*sets margin-bottom to 10 pixels*/
     margin-bottom: 10px;
+    /*sets text-align to center*/
     text-align: center;
 }
 
+/*Below are the rules for the class 'benefit-cost' and the tag h3*/
 .benefit-cost h3 {
+    /*sets margin-bottom to 10 pixels*/
     margin-bottom: 10px;
+    /*sets text-align*/
     text-align: center;
 }
 
+/*below are the rules for the class 'benefit-lead' and the tag img*/
 .benefit-lead img {
+    /*sets displat to block*/
     display: block;
+    /*sets margin to 10 pixels, auto*/
     margin: 10px auto;
+    /*sets max-width to 150 pixels*/
     max-width: 150px;
 }
 
+/*below are the rules for the class 'benefit-brand' and the tag img*/
 .benefit-brand img {
+    /*sets display to block*/
     display: block;
+    /*sets margin to 10 pixels, auto*/
     margin: 10px auto;
+    /*sets max-width to 150 pixels*/
     max-width: 150px;
 }
 
+/*Below are the rules for the class 'benefit-cost' and the tag img*/
 .benefit-cost img {
+    /*sets display to block*/
     display: block;
+    /*sets margin to 10 pixels, auto*/
     margin: 10px auto;
+    /*sets max-width to 150 pixels*/
     max-width: 150px;
 }
 
+/*below are the rules for the class 'search-engine-optimization'*/
 .search-engine-optimization {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets padding to 50 pixels*/
     padding: 50px;
+    /*sets height to 300 pixels*/
     height: 300px;
+    /*sets font-family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets background-color to #0072bb*/
     background-color: #0072bb;
+    /*sets text color to white*/
     color: #ffffff;
 }
 
+/*below are rules for the class 'online-reputation-management'*/
 .online-reputation-management {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets padding to 50 pixels*/
     padding: 50px;
+    /*sets height to 300 pixels*/
     height: 300px;
+    /*sets font-family to 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets background-color to #0072bb*/
     background-color: #0072bb;
+    /*sets text color to white*/
     color: #ffffff;
 }
 
+/*below are the rules for the class 'social-media-marketing'*/
 .social-media-marketing {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets padding to 50 pixels*/
     padding: 50px;
+    /*sets height to 300 pixels*/
     height: 300px;
+    /*sets font-family 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*sets background-color to #0072bb*/
     background-color: #0072bb;
+    /*sets text color to white*/
     color: #ffffff;
 }
 
+/*below are the rules for the class 'search-engine-optimization' and img tag*/
 .search-engine-optimization img {
+    /*sets max-height to 200 pixels*/
     max-height: 200px;
 }
 
+/*below are the rules for the class 'online-reputation-management' and img tag*/
 .online-reputation-management img {
+    /*sets max-height to 200 pixels*/
     max-height: 200px;
 }
 
+/*below are the rules for the class 'social-media-marketing' and the img tag*/
 .social-media-marketing img {
+    /*sets max-height to 200 pixels*/
     max-height: 200px;
 }
 
+/*below are the rules for the class 'search-engine-optimization' and h2 tag*/
 .search-engine-optimization h2 {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets font-size to 36 pixels*/
     font-size: 36px;
 }
 
+/*below are the rules for the class 'online-reputation-management' and h2 tags*/
 .online-reputation-management h2 {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets font-size to 36 pixels*/
     font-size: 36px;
 }
 
+/*below are the rules for the class 'social-media-marketing' and h2 tags*/
 .social-media-marketing h2 {
+    /*sets margin-bottom to 20 pixels*/
     margin-bottom: 20px;
+    /*sets font-size to 36 pixels*/
     font-size: 36px;
 }
 
+/*below are rules for the class 'footer'*/
 .footer {
+    /*sets padding to 30n pixels*/
     padding: 30px;
+    /*sets clear to both*/
     clear: both;
+    /*sets font-family to 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*sets text-align to center*/
     text-align: center;
 }
 
+/*below are the rules for the class 'footer' and h2 tags*/
 .footer h2 {
+    /*sets font-size to pixels*/
     font-size: 20px;
 }
